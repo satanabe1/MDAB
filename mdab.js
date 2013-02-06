@@ -1,6 +1,6 @@
 
-$(window).load(function(){
-
+//$(window).load(function(){
+jQuery.event.add(window, "load", function(){
     var converter = new Showdown.converter();
 
     // cssの生成 //{{{
