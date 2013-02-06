@@ -8,39 +8,26 @@
 <script>google.load('jquery','1')</script>
 <script>(function(j){j(function(){$=jQuery=j})})($)</script>
 
-<script src="g2ab.js"></script>
+<script src="mdab.js"></script>
 ```
 
-ブログでGistのソースコードを貼り付けたいところに，以下を記述
+Markdown形式で記述したい文章を mdab クラスを設定した divタグで囲む
 
 ```
-<div class="g2ab">
-  url@GistのURL
+<div class="mdab">
+ここにmarkdown形式で記述
 </div>
 ```
 
 例:
 
 ```
-<div class="g2ab">
-  url@https://gist.github.com/satanabe1/4683624
-</div>
-```
-
-### オプション
-```
-<div class="g2ab">
-  size@ローディング画像の大きさ
-  imgcolor@ローディング画像の基本色
-</div>
-```
-
-例:
-
-```
-<div class="g2ab">
-  size@128
-  imgcolor@255,100,255
+<div class="mdab">
+hogehoge
+--
+asdf  
+1234  
+lkjh
 </div>
 ```
 
