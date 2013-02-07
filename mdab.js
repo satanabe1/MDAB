@@ -4,8 +4,8 @@ jQuery.event.add(window, "load", function(){
 
     // cssの生成 //{{{
     (function(){
-        //var style = $('<style />').appendTo('head');
-        var style = $('<style />');
+        var style = $('<style />').appendTo('head');
+        //var style = $('<style />');
         style.append(".markdown-body{font-size:14px;line-height:1.6;}");
         style.append(".markdown-body>*:first-child{margin-top:0!important;}");
         style.append(".markdown-body>*:last-child{margin-bottom:0!important;}");
